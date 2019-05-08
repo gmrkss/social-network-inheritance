@@ -4,12 +4,13 @@ from datetime import datetime
 # create these classes as it corresponds:
 # (your tests will fail if you don't comment out these classes)
 
-# class Post(object):
-#     def __init__(self, text, timestamp=None):
-#         pass
-#
-#     def set_user(self, user):
-#         pass
+class Post(object):
+    def __init__(self, text, timestamp=None):
+        self.text = text
+        self.timestamp = timestamp
+
+    def set_user(self, user):
+        self.user = user
 
 
 # class TextPost(...):  # Inherit properly
