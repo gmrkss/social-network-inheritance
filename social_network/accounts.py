@@ -5,8 +5,10 @@ class User(object):
         self.email = email
         self.following = []
         self.posts = []
-#         self.timeline = []
-
+        
+    def __str__(self):
+        return self.first_name+' '+self.last_name
+        
     def add_post(self, post):
         self.posts.append(post)
 

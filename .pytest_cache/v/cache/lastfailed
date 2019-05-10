@@ -1,5 +1,6 @@
 {
-  "test_posts.py::test_post_default_user": true,
-  "test_posts.py::test_post_set_user": true,
-  "test_posts.py::test_post_string_representation": true
+  "test_accounts.py::test_add_post": true,
+  "test_accounts.py::test_user_creation": true,
+  "test_accounts.py::test_user_follow": true,
+  "test_accounts.py::test_user_timeline": true
 }
