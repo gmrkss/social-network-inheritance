@@ -1,4 +1,5 @@
 {
-  "test_accounts.py": true,
-  "test_posts.py": true
+  "test_posts.py::test_post_default_user": true,
+  "test_posts.py::test_post_set_user": true,
+  "test_posts.py::test_post_string_representation": true
 }
